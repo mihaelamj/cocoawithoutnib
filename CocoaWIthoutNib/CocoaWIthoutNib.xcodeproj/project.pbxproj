@@ -11,12 +11,8 @@
 		A980503318A913FE009EDC56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A980503118A913FE009EDC56 /* InfoPlist.strings */; };
 		A980503518A913FE009EDC56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A980503418A913FE009EDC56 /* main.m */; };
 		A980503918A913FE009EDC56 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A980503718A913FE009EDC56 /* Credits.rtf */; };
-		A980503C18A913FE009EDC56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A980503B18A913FE009EDC56 /* AppDelegate.m */; };
-		A980504118A913FE009EDC56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A980504018A913FE009EDC56 /* Images.xcassets */; };
 		A980504818A913FE009EDC56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A980504718A913FE009EDC56 /* XCTest.framework */; };
 		A980504918A913FE009EDC56 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A980502818A913FE009EDC56 /* Cocoa.framework */; };
-		A980505118A913FE009EDC56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A980504F18A913FE009EDC56 /* InfoPlist.strings */; };
-		A980505318A913FE009EDC56 /* CocoaWIthoutNibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A980505218A913FE009EDC56 /* CocoaWIthoutNibTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +36,8 @@
 		A980503418A913FE009EDC56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A980503618A913FE009EDC56 /* CocoaWIthoutNib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaWIthoutNib-Prefix.pch"; sourceTree = "<group>"; };
 		A980503818A913FE009EDC56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		A980503A18A913FE009EDC56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A980503B18A913FE009EDC56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A980504018A913FE009EDC56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A980504618A913FE009EDC56 /* CocoaWIthoutNibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaWIthoutNibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A980504718A913FE009EDC56 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A980504E18A913FE009EDC56 /* CocoaWIthoutNibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaWIthoutNibTests-Info.plist"; sourceTree = "<group>"; };
-		A980505018A913FE009EDC56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A980505218A913FE009EDC56 /* CocoaWIthoutNibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaWIthoutNibTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				A980502E18A913FE009EDC56 /* CocoaWIthoutNib */,
-				A980504C18A913FE009EDC56 /* CocoaWIthoutNibTests */,
 				A980502718A913FE009EDC56 /* Frameworks */,
 				A980502618A913FE009EDC56 /* Products */,
 			);
@@ -113,9 +102,6 @@
 		A980502E18A913FE009EDC56 /* CocoaWIthoutNib */ = {
 			isa = PBXGroup;
 			children = (
-				A980503A18A913FE009EDC56 /* AppDelegate.h */,
-				A980503B18A913FE009EDC56 /* AppDelegate.m */,
-				A980504018A913FE009EDC56 /* Images.xcassets */,
 				A980502F18A913FE009EDC56 /* Supporting Files */,
 			);
 			path = CocoaWIthoutNib;
@@ -129,24 +115,6 @@
 				A980503418A913FE009EDC56 /* main.m */,
 				A980503618A913FE009EDC56 /* CocoaWIthoutNib-Prefix.pch */,
 				A980503718A913FE009EDC56 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A980504C18A913FE009EDC56 /* CocoaWIthoutNibTests */ = {
-			isa = PBXGroup;
-			children = (
-				A980505218A913FE009EDC56 /* CocoaWIthoutNibTests.m */,
-				A980504D18A913FE009EDC56 /* Supporting Files */,
-			);
-			path = CocoaWIthoutNibTests;
-			sourceTree = "<group>";
-		};
-		A980504D18A913FE009EDC56 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A980504E18A913FE009EDC56 /* CocoaWIthoutNibTests-Info.plist */,
-				A980504F18A913FE009EDC56 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,7 +196,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A980503318A913FE009EDC56 /* InfoPlist.strings in Resources */,
-				A980504118A913FE009EDC56 /* Images.xcassets in Resources */,
 				A980503918A913FE009EDC56 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,7 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A980505118A913FE009EDC56 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A980503C18A913FE009EDC56 /* AppDelegate.m in Sources */,
 				A980503518A913FE009EDC56 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +222,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A980505318A913FE009EDC56 /* CocoaWIthoutNibTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,14 +250,6 @@
 				A980503818A913FE009EDC56 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		A980504F18A913FE009EDC56 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A980505018A913FE009EDC56 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
